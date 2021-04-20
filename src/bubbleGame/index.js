@@ -6,7 +6,7 @@ export default class BubbleGame extends React.Component {
     super(props);
     this.state = {
       allBubbles: [],
-      score: 0
+      score: 1
     }
     this.width = window.innerWidth;
     this.bubbleEdge = this.width / 10;
